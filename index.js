@@ -12,11 +12,11 @@ document.getElementById("btn").onclick = function() {
 
   else if(first.checked){
     temp = (9 * inputvalue.value + 160)/5;
-    result.textContent = temp + " F";
+    result.textContent = temp + "°F";
   }
   else if(second.checked) {
     temp = Math.ceil((5 * (inputvalue.value - 32))/9);
-    result.textContent = temp + " C";
+    result.textContent = temp + "°C";
   }
   else{
     result.textContent = "You are not select in any type";
